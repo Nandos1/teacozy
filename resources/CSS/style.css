@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  height: 69px;
+  border-bottom-color: 1px solid seashell;
+  background-color: black;
+}
+
+h1 {
+  font-family: Helveltica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.mission {
+  background-image: url(resources/img-mission-background.jpg)
+  height: 700px;
+  width: 1200px;
+}
+
+h2 {
+  font-family: Helveltica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: inline-block;
+}
+
+h2 {
+  font-family: Helveltica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: inline-block;
+}
+
+#one image {
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  right: 10px;
+}
