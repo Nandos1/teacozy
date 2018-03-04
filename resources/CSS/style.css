@@ -1,8 +1,87 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/*header*/
+
 .header {
   position: fixed;
+  top: 0px;
+  left: 0px;
   height: 69px;
-  border-bottom-color: 1px solid seashell;
+  width: 100%;
+  border-bottom: 1px solid seashell;
   background-color: black;
+  display: flex;
+}
+
+.logo {
+  flex-grow: 3;
+}
+
+.navigation {
+  flex-grow: 1;
+}
+
+.logo img {
+  margin-left: 10px;
+}
+
+/*mission*/
+
+.mission {
+  background-image: url(resources/img-mission-background.jpg);
+  align-items: center;
+  display: flex;
+  width: 1200px;
+  height: 700px;
+}
+
+.missiontext {
+  background-color: black;
+  vertical-align: middle;
+}
+
+/*teatypes*/
+
+.teatypes {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.teaofmonth {
+  display: flex;
+  flex-direction: column;
+}
+
+img.teatypes {
+  margin-bottom: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+h4.teaofmonth {
+  text-align: center;
+}
+
+/*location*/
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  
 }
 
 h1 {
@@ -14,12 +93,6 @@ h1 {
   text-align: center;
   text-decoration: underline;
   display: inline-block;
-}
-
-.mission {
-  background-image: url(resources/img-mission-background.jpg)
-  height: 700px;
-  width: 1200px;
 }
 
 h2 {
