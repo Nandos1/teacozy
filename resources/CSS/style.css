@@ -1,21 +1,36 @@
-html {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
 }
 
 .container {
   background-color: black;
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+h5 {
+  font-weight: lighter;
 }
 
 /*header*/
 
 .header {
   position: fixed;
+  z-index: 10;
   top: 0px;
   left: 0px;
   height: 69px;
@@ -39,9 +54,12 @@ html {
   height: 50px;
 }
 
-.navigation h1 {
+h1.nav {
   text-decoration: underline;
+  font-weight: lighter;
   font-family: Helvetica;
+  margin-left: 10px;
+  display: inline-block;
 }
 
 /*mission*/
@@ -53,7 +71,7 @@ html {
 }
 
 .mission {
-  background-image: image(resources/img-mission-background.jpg);
+  background-image: url("../img-mission-background.jpg");
   align-items: center;
   justify-content: center;
   display: flex;
@@ -64,6 +82,7 @@ html {
 .missiontext {
   background-color: black;
   text-align: center;
+  width: 100%;
 }
 
 /*teatypes*/
@@ -86,15 +105,12 @@ img.teaofmonth {
   width: 300px;
 }
 
-h4 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
 /*location*/
+
+#loco {
+display: flex;
+flex-direction: column;
+}
 
 .locations {
   display: flex;
@@ -102,7 +118,7 @@ h2 {
   align-items: center;
   width: 1200px;
   height: 500px;
-  background-image: url()
+  background-image: url("../img-locations-background.jpg");
 }
 
 .loc {
@@ -116,31 +132,25 @@ h2 {
   text-align: center;
 }
 
-h1 {
-  font-family: Helveltica;
-  font-size: 22px;
-  color: seashell;
+/*copyright*/
+
+.copyright {
   background-color: black;
-  opacity: 0.9;
-  text-align: center;
-  text-decoration: underline;
-  display: inline-block;
 }
 
-h2 {
-  font-family: Helveltica;
-  font-size: 22px;
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  text-align: center;
-  display: inline-block;
+h5.copy {
+  text-align: left;
+  margin-left: 20px;
 }
 
+/*footer*/
 
-#one image {
-  height: 50px;
-  position: relative;
-  display: inline-block;
-  right: 10px;
+.footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  background-color: black;
+  border: black 1px solid;
 }
